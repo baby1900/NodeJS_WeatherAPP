@@ -2,14 +2,24 @@
   "name": "weather-app",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baby1900/NodeJS_WeatherAPP.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baby1900/NodeJS_WeatherAPP/issues"
+  },
+  "homepage": "https://github.com/baby1900/NodeJS_WeatherAPP#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
     "request": "^2.88.0"
   }
 }
